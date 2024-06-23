@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+  
+}
+
+html,                
+body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+body::-webkit-scrollbar{
+  /* display: block; */
+  width:10px;
+  background-color:black;
+ }
+ body::-webkit-scrollbar-thumb{
+  background-color: #95500C;
+  border-radius: 50px;
+
+}
+#main{
+ height: 100%;
+ width:100%;
+ background-color: #F5F3EF;
+}
+#nav{
+  position: fixed;
+  padding-top: 25px;
+  padding-right: 30px;
+ display: flex;
+ justify-content: end;
+ width:100%;
+}
+#button1{
+ background-color: black;
+ font-size: 20px;
+ color:white;
+ padding:10px 20px;
+ border-radius: 50px;
+}
+#top{
+ height:55%;
+ width:100%;
+ padding-top:35px;
+}
+#head{
+ padding: 0px 40px;
+ 
+}
+#head h1{
+ 
+ font-size: 130px;
+ line-height: 120px;
+ letter-spacing: -5px; 
+}
+
+#head2{
+  padding: 20px 40px;
+ display: flex;
+ justify-content: space-between;
+
+}
+#head2 h2{
+ font-weight:600;
+}
+
+#ima{
+    height:87%;
+    width:100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+
+#about1{
+  background-color: #F5F3EF;
+ height: 60%;
+ width:100%;
+ padding: 40px 50px;
+
+  display: flex;
+ justify-content:space-between;
+}
+#about1 h1{
+ width: 65%;
+ font-size: 67px;
+ line-height: 65px;
+
+}
+
+#about2{
+ padding: 15px 30px;
+ width : 35%;
+ height: 100% ;
+ border-left: 3px solid black;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+
+}
+
+#icons i {
+ font-size:20px;
+ margin-right: 13px;
+ background-color: black;
+ color: white;
+ padding:10px;
+ border-radius: 50px;
+}
